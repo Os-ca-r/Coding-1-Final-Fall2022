@@ -1,13 +1,11 @@
+/* navbar */
 .navbar-brand img {
     height:70px;
     margin-left:20px
 }
-.carousel-item img {
-    width:100%;
-    height:45vw
-}
 .navbar {
     background-color: black;
+    background-attachment: fixed;
 }
 .navbar a {
     color:white
@@ -15,7 +13,86 @@
 .navbar a:hover {
     color:whitesmoke
 }
-.cards {
-    background-color: rgba(242,242,242);
-   text-align: center;
+/* home */
+.carousel-item img {
+    width:100%;
+    height:45vw
+}
+
+.cards, .about {
+    background-color: rgb(0, 0, 0);
+    margin-left:auto;
+    margin-right:auto;
+    color:white
+}
+.card {
+    background-color: black;
+    color:white;
+    width:100%;
+    border:1px solid white
+}
+/* about */
+.about img, .about p {
+    display:block;
+    width:400px;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px
+}
+.about h6 {
+    margin-top:100px
+}
+@media screen and (max-width:1100px){
+    .about h6 {
+        margin-left:40px;
+        margin-top:20px
+    }
+}
+.about {
+    height:400px
+}
+.about-intro {
+    background-color: black;
+}
+.all {
+  display:block;
+    align-items: center;
+    color:white;
+    margin-top: 30px;
+    padding:5vw;
+    width:80%;
+    height: 10%;
+    background: rgb(0, 0, 0);
+    box-shadow:25px 6px 15px rgba(0,0,0,.6);
+    
+}  
+/* contact */
+.contact {
+    background-color:black;
+    color:white;
+    width:100%
+}
+.contact img, .contact a {
+    height:auto;
+    width:15vw;
+    text-decoration: none;
+    color:white
+}
+.social {
+    margin-top: 50px;
+}
+/* footer */
+.footer {
+    background-color: black;
+    color:white;
+    
+   
+}
+.footer-content {
+    border-top:1px solid white;
+}
+.footer a {
+    
+    color:white
 }
