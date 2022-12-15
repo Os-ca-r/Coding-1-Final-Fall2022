@@ -56,13 +56,6 @@ body {
     border-color: white;
 }
 
-@media screen and (min-width:420px) and (max-width:1100) {
-    .card-content {
-     
-   
-        margin-left:800px
-    }
-}
 .cards .row {
     margin-left: auto;
     margin-right: auto;
