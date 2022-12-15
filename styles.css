@@ -1,0 +1,21 @@
+.navbar-brand img {
+    height:70px;
+    margin-left:20px
+}
+.carousel-item img {
+    width:100%;
+    height:45vw
+}
+.navbar {
+    background-color: black;
+}
+.navbar a {
+    color:white
+}
+.navbar a:hover {
+    color:whitesmoke
+}
+.cards {
+    background-color: rgba(242,242,242);
+   text-align: center;
+}
